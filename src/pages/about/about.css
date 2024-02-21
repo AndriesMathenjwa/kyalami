@@ -1,3 +1,144 @@
-.space{
-  padding-bottom: 650px;
+.about {
+  text-align: center;
+}
+.about-content {
+  position: relative;
+  display: inline-block;
+  padding-top: 150px;
+}
+.about-content h2 {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 1;
+  color: white;
+}
+.about-text {
+  font-size: 50px;
+}
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  filter: brightness(95%);
+  margin-bottom: 40px;
+}
+.icon {
+  font-size: 60px;
+}
+.text-heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.fcontainer {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1061px) {
+  .about-content {
+    padding-top: 140px;
+  }
+  .about-text {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .about-content {
+    padding-top: 110px;
+  }
+  .about-content h2 {
+    top: 60%;
+  }
+}
+@media screen and (max-width: 810px) {
+  .about-text {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .about-image {
+    height: 140px;
+  }
+  .about-content {
+    padding-top: 100px;
+  }
+  .text-heading {
+    margin-bottom: 25px;
+  }
+  .about-text {
+    font-size: 30px;
+    transition: 0.2 ease;
+  }
+  .about-content h2 {
+    top: 58%;
+  }
+  .card {
+    padding: 30px;
+    width: 75%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .about-text {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .card {
+    padding: 20px;
+    width: 70%;
+    margin-bottom: 8px;
+    transition: 0.2 ease;
+  }
+  .card p{
+    font-size: 14px;
+  }
+  .icon {
+    font-size: 40px;
+  }
+  .about-text {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .about-content h2 {
+    top: 60%;
+  }
+  .about-text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  .about-image {
+    height: 110px;
+  }
+  .about-text{
+     font-size: 25px;
+  }
+  .icon{
+    font-size: 30px;
+  }
 }

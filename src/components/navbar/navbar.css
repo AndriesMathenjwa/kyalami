@@ -6,7 +6,26 @@
     background-color: #fff;
     z-index: 1000;
     width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
+/* a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+  }
+   
+  a:after {
+    border-bottom: 1px solid black;
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+ 
+  a:hover:after {
+    border-bottom: 4px solid orange;
+    transform: scaleX(1);
+  } */
 
 .navbar-logo img {
     padding-top: 10px;
@@ -21,7 +40,7 @@
 }
 
 .navbar-links ul li {
-    margin-right: 40px;
+    margin-right: 53px;
 }
 
 .navbar-links ul li a {
@@ -30,8 +49,8 @@
 }
 .active-link {
     background-color: rgb(255, 168, 6);
-    padding: 5px;
-    border-radius: 15px;
+    padding: 12px;
+    border-radius: 20px;
 }
 
 
@@ -44,12 +63,10 @@
     .navbar-logo img {
         width: 100px;
         padding-left: 70px;
-        transition: 0.2 ease;
     }
     
     .navbar-links ul li {
         margin-right: 25px;
-        transition: 0.2 ease;
     }
 }
 
@@ -57,24 +74,45 @@
     .navbar-logo img {
         width: 80px;
         padding-left: 50px;
-        transition: 0.2 ease;
     }
 
     .navbar-links ul li {
         margin-right: 20px;
-        transition: 0.2 ease;
     }
 }
 @media screen and (max-width: 830px) {
     .navbar-links ul li {
         margin-right: 15px;
-        transition: 0.2 ease;
     }
 }
 
 
 
 @media screen and (max-width: 810px) {
+    /* .navbar{
+        background: #555151;
+        height: 950px;
+        padding-left: 320px;
+        justify-content: unset;
+     }
+    .navbar-links ul {
+        display: unset;
+    }
+    .navbar-links ul li {
+        margin-bottom: 50px;
+    }
+    .navbar-links ul li a {
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-menu-icon {
+        display: none;
+    }
+
+    .navbar-logo img{
+        display: none;
+    } */
+    /* ====================================*/
     .navbar-links ul li {
         display: none;
     }
@@ -87,7 +125,6 @@
     .navbar-logo img {
         width: 90px;
         padding-left: 80px;
-        transition: 0.2 ease;
     }
 }
 
@@ -95,13 +132,11 @@
     .navbar-menu-icon {
         padding-right: 50px;
         font-size: 27px;
-        transition: 0.2 ease;
     }
 
     .navbar-logo img {
         width: 75px;
         padding-left: 50px;
-        transition: 0.2 ease;
     }
 }
 
@@ -114,7 +149,6 @@
     .navbar-logo img {
         width: 70px;
         padding-left: 40px;
-        transition: 0.2 ease;
     }
 }
 
@@ -122,12 +156,10 @@
     .navbar-menu-icon {
         padding-right: 27px;
         font-size: 20px;
-        transition: 0.2 ease;
     }
 
     .navbar-logo img {
         width: 60px;
         padding-left: 27px;
-        transition: 0.2 ease;
     }
 }

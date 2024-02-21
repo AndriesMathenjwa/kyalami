@@ -41,12 +41,10 @@
   @media screen and (max-width: 540px) {
     .footer {
       width: 85%;
-      transition: 0.2 ease;
     }
     .tncs{
       padding-left: 5px;
       padding-right: 5px;
-      transition: 0.2 ease;
     }
   }
 
@@ -60,6 +58,16 @@
     }
     .footer-info {
       font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width:290px){
+    .footer{
+      width: 75%;
+      padding: 10px;
+    }
+    .footer-links{
+      display: none;
     }
   }
   
