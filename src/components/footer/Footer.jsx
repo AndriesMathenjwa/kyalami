@@ -1,7 +1,6 @@
-import React from 'react';
-import './footer.css'; 
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,10 +10,11 @@ const Footer = () => {
         <Link to="/about">About Us</Link>
       </div>
       <div className="footer-info">
-        Kyalami Shisanyama © All Rights Reserved  <span className='tncs'>T’s & C’s </span>  Privacy Policies
+        Kyalami Shisanyama © All Rights Reserved{" "}
+        <span className="tncs">T’s & C’s </span> Privacy Policies
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

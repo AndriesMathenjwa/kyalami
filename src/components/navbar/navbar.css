@@ -1,139 +1,142 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.navbar-sticky{
-     background-color: #fff;
-}
-.navbar .navbar-logo{
-    padding-top: 10px; 
-    width: 110px;
-    padding-left: 100px;
+.navbar .navbar-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 110px;
+  padding-left: 100px;
 }
 .navbar-menu-icon {
-    display: block;
-    padding-right: 80px;
-    font-size: 30px;
+  display: block;
+  padding-right: 80px;
+  font-size: 30px;
 }
 .navbar ul {
-    display: flex;
+  display: flex;
 }
-.navbar-links{
-    padding-right: 100px;
+.navbar-links {
+  padding-right: 100px;
 }
 .navbar ul li {
-    list-style: none;
+  list-style: none;
 }
 .navbar ul li a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 0.5rem;
-    margin: 0 0.5rem;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
 }
 .active-link {
-    background-color: rgb(255, 168, 6);
-    padding: 12px;
-    border-radius: 20px;
+  background-color: rgb(255, 168, 6);
+  padding: 12px;
+  border-radius: 20px;
 }
 
-.navbar .navbar-menu-icon{
-    position: absolute;
-    top: 42px;
-    right: 0.5px;
+.navbar .navbar-menu-icon {
+  position: absolute;
+  top: 42px;
+  right: 0.5px;
+  flex-direction: column;
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1070px) {
+  .navbar .navbar-logo {
+    width: 100px;
+    padding-left: 70px;
+  }
+  .navbar ul li a {
+    padding: 0.3rem;
+    margin: 0 0.3rem;
+  }
+  .navbar-links {
+    padding-right: 70px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .navbar .navbar-logo {
+    padding-left: 50px;
+  }
+  .navbar-links {
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .navbar-menu-icon.menu-open {
+    color: #fff;
+  }
+
+  .navbar.menu-open {
+    background-color: #131212;
+  }
+  .navbar .navbar-menu-icon {
+    display: flex;
+  }
+  .navbar {
     flex-direction: column;
+    align-items: start;
+    /* padding-bottom: 70px; */
+  }
+
+  .navbar ul {
     display: none;
-    cursor: pointer;
-}
-@media screen and (max-width: 1070px) {
-    .navbar .navbar-logo {
-        width: 100px;
-        padding-left: 70px;
-    }
-    .navbar ul li a {
-        padding: 0.3rem;
-        margin: 0 0.3rem;
-    }
-    .navbar-links{
-        padding-right: 70px;
-    }
-    
-}
-@media screen and (max-width: 1070px) {
-    .navbar .navbar-logo {
-        padding-left: 50px;
-    }
-    .navbar-links{
-        padding-right: 50px;
-    }
-    
-}
-
-
-@media screen and (max-width: 810px){
-    .navbar .navbar-menu-icon{
-        display: flex;
-    }
-    .navbar{
-        flex-direction: column;
-        align-items: start;
-        /* background-color: #8e8989; */
-    }
-    
-    .navbar ul{
-        display: none;
-        flex-direction: column;
-        width: 80%;
-        margin-bottom: 0.25rem;
-    }
-    .navbar ul li{
-        width: 100%;
-        text-align: center;
-    }
-    .navbar ul li a {
-        margin: 0.2rem 0.5rem;
-    }
-    nav ul.open {
-        display: flex;
-    }
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 0.25rem;
+  }
+  .navbar ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar ul li a {
+    margin: 0.2rem 0.5rem;
+    color: #fff;
+  }
+  nav ul.open {
+    display: flex;
+  }
 }
 @media screen and (max-width: 620px) {
-    .navbar .navbar-logo {
-        padding-left: 30px;
-    }
-    .navbar-links{
-        padding-right: 30px;
-    }
-    .navbar .navbar-logo{
-        padding-top: 10px; 
-        width: 80px;
-    }
-    .navbar-menu-icon {
-        padding-right: 40px;
-    }
+  .navbar .navbar-logo {
+    padding-left: 30px;
+  }
+  .navbar-links {
+    padding-right: 30px;
+  }
+  .navbar .navbar-logo {
+    padding-top: 10px;
+    width: 80px;
+  }
+  .navbar-menu-icon {
+    padding-right: 40px;
+  }
 }
 
-/* a {
-    color: black;
-    display: inline-block;
-    text-decoration: none;
-  }
-   
-  a:after {
-    border-bottom: 1px solid black;
-    content: '';
-    display: block;
-    transform: scaleX(0);
-    transition: transform 0.25s ease-in-out;
-  }
- 
-  a:hover:after {
-    border-bottom: 4px solid orange;
-    transform: scaleX(1);
-  } */
+a {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:after {
+  border-bottom: 1px solid black;
+  content: "";
+  display: block;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+a:hover:after {
+  border-bottom: 4px solid orange;
+  transform: scaleX(1);
+}
