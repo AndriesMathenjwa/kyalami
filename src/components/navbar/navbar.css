@@ -6,6 +6,7 @@
     background-color: #fff;
     z-index: 1000;
     width: 100%;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
 }
 
 .navbar-logo img {
@@ -39,6 +40,27 @@
     display: none;
     cursor: pointer;
 }
+
+a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+  }
+    
+  a:after {
+    border-bottom: 1px solid black;
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  a:hover:after {
+    border-bottom: 4px solid orange;
+    transform: scaleX(1);
+  }
+
+
 
 @media screen and (max-width: 1070px) {
     .navbar-logo img {

@@ -8,6 +8,7 @@ const About = () => {
         <div className="about">
             <Navbar />
         <div className="space"></div>
+        
      <Footer /> 
     </div>
     
