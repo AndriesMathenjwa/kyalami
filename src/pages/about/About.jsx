@@ -4,7 +4,7 @@ import { TbTargetArrow } from "react-icons/tb";
 import { PiSelectionBackground } from "react-icons/pi";
 import { FaRegEye } from "react-icons/fa";
 import Navbar from "../../components/navbar/Navbar";
-import AboutPic from "../../photos/About.jpeg";
+import AboutPic from "../../photos/establishment4.jpeg";
 import Footer from "../../components/footer/Footer";
 
 const About = () => {
@@ -39,7 +39,7 @@ const About = () => {
         <p>
           To become the best customer centric establishment, to serve our
           customers with pride and keep on growing an everlasting with all
-          patrons.
+          patrons..
         </p>
       </div>
 

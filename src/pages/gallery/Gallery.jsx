@@ -4,7 +4,7 @@ import "./gallery.css";
 import Navbar from "../../components/navbar/Navbar";
 import foodImage from "../../photos/food.jpeg";
 import mix from "../../photos/mix.jpg";
-import music from "../../photos/music.jpeg";
+import music from "../../photos/music.jpg";
 import establishment from "../../photos/establishment1.jpeg";
 import Footer from "../../components/footer/Footer";
 
