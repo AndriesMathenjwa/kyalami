@@ -13,64 +13,64 @@
 .gallery-card {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 10px;
   width: 80%;
   margin: 0 auto;
   text-align: center;
   border-radius: 40px;
 }
-.big-text{
+.big-text {
   font-size: 32px;
 }
-.small-text{
+.small-text {
   font-size: 22px;
 }
 
 .image-container {
   display: flex;
   justify-content: space-between;
-  width: 100%; 
-  max-width: 80%; 
-  margin: 0 auto; 
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .image-wrapper {
-  width: calc(33.33% - 10px); 
+  width: calc(33.33% - 10px);
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .image-wrapper img {
   filter: brightness(66%);
   border-radius: 20px;
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 .image-text {
   position: absolute;
   color: white;
   text-align: center;
-  width: 100%; 
-  top: 50%; 
+  width: 100%;
+  top: 50%;
   transform: translateY(-50%);
   font-size: 22px;
 }
 
 .big-image-container {
-  width: 100%; 
-  max-width: 80%; 
-  margin: 20px auto; 
+  width: 100%;
+  max-width: 80%;
+  margin: 20px auto;
   position: relative;
 }
 
 .big-image-container img {
   filter: brightness(66%);
   border-radius: 20px;
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
   margin-bottom: 37px;
 }
 
@@ -83,4 +83,58 @@
   text-align: center;
   width: 100%;
   font-size: 35px;
+}
+
+@media screen and (max-width: 1170px) {
+  .big-text {
+    font-size: 26px;
+  }
+  .small-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .gallery-card{
+    padding: 8px;
+  }
+  .big-text {
+    font-size: 22px;
+  }
+  .small-text {
+    font-size: 16px;
+  }
+  .image-container {
+    max-width: 77%;
+}
+.big-image-container img {
+  width: 98%;
+}
+.gallery-card {
+  width: 77%;
+}
+.image-text {
+  font-size: 18px;
+}
+.big-image-text {
+  font-size: 30px;
+}
+.top-imag-conta {
+  margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 810px){
+  /* .image-container {
+    display: block;
+} */
+/* .big-image-container img {
+  width: 98%;
+} */
+  .big-text {
+    font-size: 18px;
+  }
+  .small-text {
+    font-size: 14px;
+  }
 }
