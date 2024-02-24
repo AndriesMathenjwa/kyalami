@@ -4,7 +4,7 @@ import { TbTargetArrow } from "react-icons/tb";
 import { PiSelectionBackground } from "react-icons/pi";
 import { FaRegEye } from "react-icons/fa";
 import Navbar from "../../components/navbar/Navbar";
-import AboutPic from "../../photos/establishment4.jpeg";
+import AboutPic from "../../photos/establishment.jpeg";
 import Footer from "../../components/footer/Footer";
 
 const About = () => {
