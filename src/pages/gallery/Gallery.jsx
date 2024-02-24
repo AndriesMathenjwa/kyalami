@@ -1,52 +1,57 @@
 import React from "react";
-import { NavLink } from "react-router-dom"; // Import NavLink from react-router-dom
+import { NavLink } from "react-router-dom";
 import "./gallery.css";
 import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 import foodImage from "../../photos/food.jpeg";
 import mix from "../../photos/mix.jpg";
 import music from "../../photos/music.jpg";
 import establishment from "../../photos/establishment1.jpeg";
-import Footer from "../../components/footer/Footer";
 
 const Gallery = () => {
   return (
     <div className="gallery">
       <Navbar />
-      <div className="gallery-content">
-        <div className="gallery-card">
-          <h2>
-            Explore our vibrant gallery showcasing delectable dishes, <br />{" "}
-            lively gig moments, and the beverages
-          </h2>
-          <p>
-            immerse in flavors, tunes, and spirits that define <br /> our
-            establishment experience
-          </p>
-        </div>
-        <div className="upper-images-container">
-          <NavLink to="/food" className="image-container">
-            <img src={foodImage} alt="Image1" className="upper-images" />
-            <div className="image-text">Our food</div>
-          </NavLink>
-          <NavLink to="/food" className="image-container">
-            <img src={mix} alt="Image2" className="upper-images" />
-            <div className="image-text">Mix of spirits</div>
-          </NavLink>
-          <NavLink to="/food" className="image-container">
-            <img src={music} alt="Image3" className="upper-images" />
-            <div className="image-text">Musical Vibes</div>
-          </NavLink>
-        </div>
-        <div className="lower-image-container">
-          <NavLink to="/food" className="image-container">
-            <img src={establishment} alt="Image4" className="lower-image" />
-            <div className="image-text">Our Establishment</div>
-          </NavLink>
-        </div>
-        <div className="fcontainer">
-          <Footer />
+      <div className="space"></div>
+      <div className="gallery-card">
+        <h2 className="big-text">
+          Explore our vibrant gallery showcasing delectable dishes, <br /> lively gig
+          moments, and the beverages
+        </h2>
+        <p className="small-text">
+          immerse in flavors, tunes, and spirits that define <br /> our
+          establishment experience
+        </p>
+      </div>
+      <div className="top-imag-conta">
+        <div className="image-container">
+          <div className="image-wrapper">
+            <NavLink to="/food">
+              <img src={foodImage} alt="Food" />
+              <div className="image-text">Our food</div>
+            </NavLink>
+          </div>
+          <div className="image-wrapper">
+            <NavLink to="/food">
+              <img src={mix} alt="Mix" />
+              <div className="image-text">Mix of spirits</div>
+            </NavLink>
+          </div>
+          <div className="image-wrapper">
+            <NavLink to="/food">
+              <img src={music} alt="Music" />
+              <div className="image-text">Live performances</div>
+            </NavLink>
+          </div>
         </div>
       </div>
+      <div className="big-image-container">
+        <NavLink to="/food">
+          <img src={establishment} alt="Establishment" />
+          <div className="big-image-text">Our stablishment</div>
+        </NavLink>
+      </div>
+      <Footer />
     </div>
   );
 };
