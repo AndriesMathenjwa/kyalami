@@ -25,7 +25,7 @@ const About = () => {
         <p>
           Our mission is to provide our customers with an up-market shisanyama
           experience by offering delicate service, traditional shisanyama, good
-          music and up class ambiance
+          music and up class ambiance.
         </p>
       </div>
 
