@@ -58,7 +58,8 @@
 .upper-images-container .image-container,
 .lower-image-container .image-container {
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease ;
+
 }
 
 .upper-images-container .image-container:hover,
