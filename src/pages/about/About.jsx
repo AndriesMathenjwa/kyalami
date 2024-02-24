@@ -39,7 +39,7 @@ const About = () => {
         <p>
           To become the best customer centric establishment, to serve our
           customers with pride and keep on growing an everlasting with all
-          patrons
+          patrons.
         </p>
       </div>
 
