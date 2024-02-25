@@ -1,3 +1,5 @@
+// Navbar.js
+
 import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import "./navbar.css";
@@ -18,11 +20,10 @@ const Navbar = () => {
     <nav className={`navbar ${menuOpen ? "menu-open" : ""}`}>
       <img src={logo} alt="Logo" className="navbar-logo" />
       <div
-        className={`navbar-menu-icon ${menuOpen ? "menu-open" : ""}`}
+        className={`navbar-menu-icon`}
         onClick={() => setMenuOpen(!menuOpen)}
       >
-        <FaBars />
-        {/* <GrClose /> */}
+         {menuOpen ? <GrClose className="close-icon" /> : <FaBars />}
       </div>
       <ul className={menuOpen ? "open" : "navbar-links"}>
         <li>
