@@ -3,11 +3,12 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  position: sticky;
+  position: sticky; 
   top: 0;
   z-index: 1000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .navbar .navbar-logo {
   padding-top: 10px;
   padding-bottom: 10px;
