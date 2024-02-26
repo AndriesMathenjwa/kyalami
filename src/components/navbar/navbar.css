@@ -49,6 +49,7 @@
   display: none;
   cursor: pointer;
 }
+
 @media screen and (max-width: 1070px) {
   .navbar .navbar-logo {
     width: 100px;
