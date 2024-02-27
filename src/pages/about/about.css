@@ -8,7 +8,7 @@
 }
 .about-content h2 {
   position: absolute;
-  top: 50% ;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -105,7 +105,7 @@
     margin-bottom: 8px;
     transition: 0.2 ease;
   }
-  .card p{
+  .card p {
     font-size: 14px;
   }
   .icon {
@@ -129,10 +129,10 @@
   .about-image {
     height: 110px;
   }
-  .about-text{
-     font-size: 25px;
+  .about-text {
+    font-size: 25px;
   }
-  .icon{
+  .icon {
     font-size: 30px;
   }
 }
