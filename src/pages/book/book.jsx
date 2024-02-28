@@ -226,7 +226,7 @@ const Book = () => {
           onChange={handleInputChange}
         /><br /><br />
       </form>
-      <button onClick={Reservebox}>Reserve</button>
+      <button className='book-btn' type='submit' onClick={Reservebox}>Reserve</button>
       <Footer />
     </div>
   );

@@ -56,7 +56,7 @@ const Music = () => {
                     <li><NavLink to="/friday" className={activeLink === "/friday" ? 'active-day' : ''}>Friday</NavLink></li>
                     <li><NavLink to="/saturday" className={activeLink === "/Saturday" ? 'active-day' : ''}>Saturday</NavLink></li>
                     <li><NavLink to="/sunday" className={activeLink === "/Sunday" ? 'active-day' : ''}>Sunday</NavLink></li>
-                    <li>Specific day:<input type="date" /></li>
+                    <li>Specific day:<input type="date" className='gig-date' /></li>
                 </ul>
             </div>
             <div className='Our_music'>

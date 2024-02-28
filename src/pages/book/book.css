@@ -48,7 +48,7 @@
     
 }
 
-form input {
+.center-form input {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -79,7 +79,7 @@ form select{
     margin-left: 6%;
 }
 
-button {
+.book-btn {
   background-color: rgb(255, 168, 6);
   color: #FFFFFF;
   border-radius: 25px;
@@ -131,7 +131,12 @@ button {
   
   .swal2-actions button {
     margin: 5px;
-    flex: 1; 
+    flex: 1 1;
+    height: 30px;
+    font-size: 10px;
+    border-radius: 80px;
+    width: 100px;
+    border: none;
   }
 
   .swal2-icon svg {
