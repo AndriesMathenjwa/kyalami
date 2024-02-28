@@ -6,7 +6,11 @@ import Footer from "../../components/footer/Footer";
 import foodImage from "../../photos/food.jpeg";
 import mix from "../../photos/mix.jpg";
 import music from "../../photos/music.jpg";
-import establishment from "../../photos/establishment1.jpeg";
+
+const establishmentImageUrl = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/establishment1.jpeg";
+// const foodImageUrl = "";
+// const mixImageUrl = "";
+// const musicImageUrl = "";
 
 const Gallery = () => {
   return (
@@ -47,8 +51,8 @@ const Gallery = () => {
       </div>
       <div className="big-image-container">
         <NavLink to="/food">
-          <img src={establishment} alt="Establishment" />
-          <div className="big-image-text">Our stablishment</div>
+          <img src={establishmentImageUrl} alt="Establishment" />
+          <div className="big-image-text">Our establishment</div>
         </NavLink>
       </div>
       <Footer />
