@@ -34,7 +34,7 @@ const Food = ({ foodImages }) => {
       <div className="food-heading">
         <h1>Every bite, a taste of joy.</h1>
 
-        <img src={mainpic} alt="" className="top-picture" />
+        {/* <img src={mainpic} alt="" className="top-picture" /> */}
       </div>
       {openModal && (
         <div className="sliderWrap">
@@ -64,5 +64,4 @@ const Food = ({ foodImages }) => {
     </div>
   );
 };
-
 export default Food;
