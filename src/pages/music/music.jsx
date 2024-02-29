@@ -46,7 +46,7 @@ const Music = () => {
             <div>
                 <Navbar />
             </div>
-            <div className="spaceM"></div>
+            {/* <div className="spaceM"></div> */}
             <div className='Mheading' style={{ marginTop: '50px', textAlign: 'center' }}>
                 <h1>#Gigs</h1>
             </div>

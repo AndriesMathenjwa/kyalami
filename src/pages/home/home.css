@@ -1,0 +1,81 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .main-home-heading{
+    text-align: center;
+  }
+
+  .header{
+    padding: 30px;
+  }
+
+  h2{
+    text-align: center;
+   
+  }
+  .the-need{
+    padding: 30px;
+  }
+
+ 
+  .content img{
+    width:900px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .the-need {
+    text-align: center; /* Center the heading */
+  }
+  
+  .content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center vertically within the container */
+    width: 1600px;
+    margin: 0 auto;
+}
+  
+  .content-picture {
+    width: 200px; /* Adjust the width as needed */
+    margin-right: 20px; /* Add spacing between the image and text */
+  }
+  
+  .content-text {
+    flex: 1; /* Take up the remaining space */
+  }
+
+  .content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center vertically within the container */
+    width: 1200px;
+    margin: 0 auto;
+}
+.hcenter{
+    text-align: center;
+}
+  .content-picture {
+    width: 200px; /* Adjust the width as needed */
+    margin-right: 20px; /* Add spacing between the image and text */
+    border-radius: 25px;
+  }
+  
+  .content-text {
+    flex: 1; /* Take up the remaining space */
+  }
+
+  p{
+    font-size: x-large;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
