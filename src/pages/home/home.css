@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 350px;
+    height: 600px;
   }
   
   .each-slide-effect span {
@@ -80,5 +80,9 @@
     margin-right: 2%;
   }
   .slid-img{
-    height: 900px;
+    background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
   }
