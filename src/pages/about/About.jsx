@@ -4,8 +4,8 @@ import { TbTargetArrow } from "react-icons/tb";
 import { PiSelectionBackground } from "react-icons/pi";
 import { FaRegEye } from "react-icons/fa";
 import Navbar from "../../components/navbar/Navbar";
-import AboutPic from "../../photos/establishment2.jpeg";
 import Footer from "../../components/footer/Footer";
+const AboutImageUrl = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/establishment2.jpeg";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       <Navbar />
       <div className="about-content">
         <h2 className="about-text">About Us</h2>
-        <img src={AboutPic} alt="About Us" className="about-image" />
+        <img src={AboutImageUrl} alt="About Us" className="about-image" />
       </div>
       <div className="icon-container">
         <span className="icon">

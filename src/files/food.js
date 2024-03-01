@@ -1,11 +1,12 @@
-import image1 from "../photos/food/image1.jpeg"
-import image2 from "../photos/food/image2.jpeg"
-import image3 from "../photos/food/image3.jpeg"
-import image5 from "../photos/food/image3.jpeg"
-import image6 from "../photos/food/image5.jpeg"
-import image7 from "../photos/food/image6.jpeg"
-import image8 from "../photos/food/image7.jpeg"
-import image9 from "../photos/food/image5.jpeg"
+const image1 =  "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image1.jpeg"
+const  image2 = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image2.jpeg"
+const  image3 = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image3.jpeg"
+const  image5 = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image4.jpeg"
+const  image6 = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image5.jpeg"
+const  image7 = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image6.jpeg"
+const  image8 = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image7.jpeg"
+const  image9 = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food/image3.jpeg"
+
 
 export const foodImages = [
     {

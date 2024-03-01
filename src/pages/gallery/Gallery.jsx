@@ -3,9 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./gallery.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
-// import foodImage from "../../photos/food.jpeg";
-// import mix from "../../photos/mix.jpg";
-// import music from "../../photos/music.jpg";
+
 
 const establishmentImageUrl = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/establishment1.jpeg";
 const foodImageUrl = "https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Gallery/food.jpeg";
