@@ -34,14 +34,14 @@ const Soul = () => {
                     <div className='gig_date'>
                     <h3 style={{color:'white',  marginLeft: '2%'}}>5 MARCH</h3>
                     <hr style={{ border: '3px solid white', width: '60px', marginLeft: '2%', marginBottom: '10px' }} />
-                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">hhhhgfgfdgfdgdxg</label><br />
-                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">hhhhgfgfdgfdgdxg</label>
+                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">Coming soon</label><br />
+                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">Coming soon</label>
                     </div>
                     <div className='gig_date'>
                     <h3 style={{color:'white',  marginLeft: '2%'}}>5 MARCH</h3>
                     <hr style={{ border: '3px solid white', width: '60px', marginLeft: '2%', marginBottom: '10px' }} />
-                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">hhhhgfgfdgfdgdxg</label><br />
-                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">hhhhgfgfdgfdgdxg</label>
+                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">Coming soon</label><br />
+                    <label style={{marginBottom:'2%', color: 'white', marginLeft:'2%'}} htmlFor="">Coming soon</label>
                     </div>
             </div>
             <div className="MusicNav">

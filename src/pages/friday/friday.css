@@ -63,7 +63,7 @@
     border: 3px solid;
 }
 
-/* Media Queries */
+/* Responsiveness */
 
 @media screen and (max-width: 1070px) {
     .gig_links {

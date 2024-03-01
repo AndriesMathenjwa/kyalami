@@ -54,7 +54,7 @@
 }
 
 .soulPoster {
-    background-image: url('/src/photos/soul.jpg');
+    background-image: url('https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Music/soul.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
