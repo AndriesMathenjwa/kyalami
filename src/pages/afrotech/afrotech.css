@@ -54,13 +54,13 @@
 }
 
 .AfrotechPoster {
-    background-image: url('/src/photos/afrotech.jpg');
+    background-image: url('https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Music/afrotech.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 
-/* Media Queries */
+/* Responsiveness */
 
 @media screen and (max-width: 1070px) {
     .gig_links {

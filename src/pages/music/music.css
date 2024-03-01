@@ -48,7 +48,7 @@
 }
 
 .Our_music {
-    background-image: url('/src/photos/Our\ music.jpg');
+    background-image: url('https://kyalami-menu.s3.eu-west-1.amazonaws.com/kyalami-pictures/Music/Our+music.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -80,7 +80,7 @@
     cursor: pointer;
 }
 
-/* Media Queries */
+/* Responsiveness */
 
 @media screen and (max-width: 1070px) {
     .gBlocks {

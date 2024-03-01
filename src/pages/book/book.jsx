@@ -145,7 +145,7 @@ const Book = () => {
         <hr />
       </div>
       <form className="center-form" action="">
-        <label className='form_head' htmlFor="" style={{marginTop:'5%', marginBottom: '15%'}}>Let's serve you Better!... Welcome.</label><br /><br />
+        <label className='form_head' htmlFor="">Let's serve you Better!... Welcome.</label><br /><br />
         <input
           className='surnameF'
           type="text"

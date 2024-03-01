@@ -1,22 +1,22 @@
-.spaceB{
-    padding-bottom: 4.9%;
-  }
+.spaceB {
+  padding-bottom: 4.9%;
+}
 
 .heading {
-    margin-top: 50px;
-    text-align: center;
+  margin-top: 50px;
+  text-align: center;
 }
-  
+
 .heading hr {
-    margin-left: 4%;
-    margin-right: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
-  
+
 .heading h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 168, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 168, 6);
 }
 
 .center-form {
@@ -40,43 +40,43 @@
   margin-bottom: 15%;
 }
 
-
-.form_head{
-   margin-left: 31%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    
+.form_head {
+  margin-left: 31%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .center-form input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 500px;
-    align-content: center;
-    margin-left: 6%;
-    margin-right: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-.eq{
-
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 8%;
-    margin-right: 8%;
-    border: 3px solid rgb(255, 168, 6);;
-}
-.date,.time{
-    width: 180px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 500px;
+  align-content: center;
+  margin-left: 6%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-form label{
-    margin-left: 6%;
+.eq {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border: 3px solid rgb(255, 168, 6);
 }
 
-form select{
-    margin-left: 6%;
+.date,
+.time {
+  width: 180px;
+}
+
+form label {
+  margin-left: 6%;
+}
+
+form select {
+  margin-left: 6%;
 }
 
 .book-btn {
@@ -97,50 +97,185 @@ form select{
   cursor: pointer;
 }
 
-/*Confirmation boxes*/
+/* Confirmation boxes */
 .custom-popup {
-    background-color:  rgb(255, 168, 6) !important;
-    color: #000 !important;
-  }
-  
-  .btn-orange {
-    background-color: rgb(255, 168, 6) !important;
-    color: #000 !important;
-  }
-  
-  .btn-white {
-    background-color: #fff !important;
-    color: #000 !important;
-  }
+  background-color: rgb(255, 168, 6) !important;
+  color: #000 !important;
+}
 
- 
+.btn-orange {
+  background-color: rgb(255, 168, 6) !important;
+  color: #000 !important;
+}
 
-/* Center the buttons*/
+.btn-white {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+/* Center the buttons */
 .swal2-popup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.swal2-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.swal2-actions button {
+  margin: 5px;
+  flex: 1 1;
+  height: 30px;
+  font-size: 10px;
+  border-radius: 80px;
+  width: 100px;
+  border: none;
+}
+
+.swal2-icon svg {
+  fill: #fff;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1070px) {
+  .center-form {
+      margin-left: 10%;
+      margin-right: 10%;
+      max-width: 80%;
   }
-  
-  
-  .swal2-actions {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .swal2-actions button {
-    margin: 5px;
-    flex: 1 1;
-    height: 30px;
-    font-size: 10px;
-    border-radius: 80px;
-    width: 100px;
-    border: none;
+}
+
+@media screen and (max-width: 896px) {
+  .center-form {
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 90%;
   }
 
-  .swal2-icon svg {
-    fill: #fff; 
+  .form_head {
+      margin-left: 5%;
   }
-/*Confirmation boxes*/  
+}
 
+@media screen and (max-width: 830px) {
+  .center-form {
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 90%;
+  }
+
+  .form_head {
+      margin-left: 5%;
+  }
+
+  .center-form input {
+      width: 85%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .center-form {
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 90%;
+  }
+
+  .form_head {
+      margin-left: 5%;
+  }
+
+  .center-form input {
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .book-btn {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .form_head {
+      margin-top: 5%;
+      margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .center-form {
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 90%;
+  }
+
+  .form_head {
+      margin-left: 5%;
+  }
+
+  .center-form input {
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .book-btn {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .center-form {
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 90%;
+  }
+
+  .form_head {
+      margin-left: 5%;
+  }
+
+  .center-form input {
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .book-btn {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .center-form {
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 90%;
+  }
+
+  .form_head {
+      margin-left: 5%;
+  }
+
+  .center-form input {
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .book-btn {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
