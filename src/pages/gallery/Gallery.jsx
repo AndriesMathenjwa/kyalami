@@ -20,7 +20,7 @@ const Gallery = () => {
       <div className="gallery-card">
         <h2 className="big-text">
           Explore our vibrant gallery showcasing delectable dishes, <br /> lively gig
-          moments, and the beverages
+          moments, and the beverages.
         </h2>
         <p className="small-text">
           immerse in flavors, tunes, and spirits that define <br /> our
