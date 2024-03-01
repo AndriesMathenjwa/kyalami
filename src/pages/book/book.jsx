@@ -138,7 +138,7 @@ const Book = () => {
   return (
     <div className="book">
       <Navbar />
-      <div className="spaceB"></div>
+      {/* <div className="spaceB"></div> */}
       <div className='heading' style={{ marginTop: '50px', textAlign: 'center' }}>
         <hr />
         <h1>Book/Reserve a table</h1>
@@ -226,7 +226,7 @@ const Book = () => {
           onChange={handleInputChange}
         /><br /><br />
       </form>
-      <button onClick={Reservebox}>Reserve</button>
+      <button className='book-btn' type='submit' onClick={Reservebox}>Reserve</button>
       <Footer />
     </div>
   );

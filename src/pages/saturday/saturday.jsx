@@ -3,6 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import './saturday.css';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
+import gig2 from "../../photos/gig2.jpg"
 
 const Saturday = () => {
     const [activeLink, setActiveLink] = useState('');
@@ -15,7 +16,7 @@ const Saturday = () => {
   return (
     <div className="Music">
       <Navbar />
-      <div className="spaceM"></div>
+      {/* <div className="spaceM"></div> */}
       <div className='Mheading' style={{ marginTop: '50px', textAlign: 'center' }}>
         <h1>#Gigs</h1>
       </div>
@@ -34,7 +35,7 @@ const Saturday = () => {
             <hr className='Underline'/> 
             </div>
             <div className='Saposter'>
-                    
+                 <img src={gig2} alt="poster1" className='center' />
             </div>
             <div>
             <h2 style={{ marginTop: '50px', textAlign: 'center' }}>Redefining African day vibe.</h2>

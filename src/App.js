@@ -21,6 +21,9 @@ import Deep from "./pages/deep/deep";
 import Rnb from "./pages/rnb/rnb";
 import Afropop from "./pages/afropop/afropop";
 import Afrotech from "./pages/afrotech/afrotech";
+import Contact from "./pages/contact/Contact";
+import Menu from "./pages/menu/Menu";
+import FoodPage from "./pages/foods/FoodPage";
 
 function App() {
   return (
@@ -29,14 +32,14 @@ function App() {
         {/*pages*/}
 
         <Route path="/" element={<Home />} />
-        {/* <Route path="/menu" element={<Menu/>}/> */}
+        <Route path="/menu" element={<Menu/>}/>
         <Route path="/music" element={<Music />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/contact" element={<Contact/>}/> */}
+        <Route path="/contact" element={<Contact/>}/>
         <Route path="/gallery" element={<Gallery />} />
         {/* <Route path="/book" element={<Table/>}/> */}
         <Route path="/book" element={<Book />} />
-        <Route path="/food" element={<Food />} />
+        <Route path="/food" element={<FoodPage />} />
 
         {/*Gigs*/}
         <Route path="/friday" element={<Friday />} />
