@@ -18,7 +18,9 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${menuOpen ? "menu-open" : ""}`}>
-      <img src={logo} alt="Logo" className="navbar-logo" />
+       <NavLink exact to="/" className="navbar-logo-link">
+        <img src={logo} alt="Logo" className="navbar-logo" />
+      </NavLink>
       <div
         className={`navbar-menu-icon`}
         onClick={() => setMenuOpen(!menuOpen)}

@@ -13,9 +13,8 @@ const Menu = () => {
         
        
             <div className="menu">
-                <div className="menu-div">
-                     <img className='menuPic' src={LOGO4} alt=''/>
-
+            <div className="menu-div">
+                     <img className='menuPic' src='https://kyalami-menu.s3.eu-west-1.amazonaws.com/image00030.jpeg' alt=''/>
                 </div>
                 
                 <h2 className='h2-content'>MENUS</h2>
